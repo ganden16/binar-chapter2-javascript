@@ -7,7 +7,7 @@ function sortCarByYearDescendingly(cars) {
 
 	// Tulis code-mu disini
 
-	// let years = [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022]
+	//let years = [2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012]
 	let years = []
 	cars.map((car) => {
 		if(!years.includes(car.year)) years.push(car.year)
@@ -15,11 +15,11 @@ function sortCarByYearDescendingly(cars) {
 
 	for(let i = 0; i < years.length; i++) {
 		for(let j = i + 1; j < years.length; j++) {
-			if(years[i] < years[j]){
+			if(years[i] < years[j]) {
 				let tmp = years[i]
 				years[i] = years[j]
 				years[j] = tmp
-			}  
+			}
 		}
 	}
 
