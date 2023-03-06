@@ -25,6 +25,7 @@ function sortCarByYearDescendingly(cars) {
 
 	let mobil = []
 
+	//success
 	years.map((year) => {
 		cars.map((car) => {
 			if(year == car.year) {
@@ -32,6 +33,24 @@ function sortCarByYearDescendingly(cars) {
 			}
 		})
 	})
+
+	//success
+	// years.forEach((year) => {
+	// 	cars.forEach((car) => {
+	// 		if(year == car.year) {
+	// 			mobil.push(car)
+	// 		}
+	// 	})
+	// })
+
+	//success
+	// for(let i = 0; i < years.length; i++) {
+	// 	for(let j = 0; j < cars.length; j++) {
+	// 		if(years[i] == cars[j].year) {
+	// 			mobil.push(cars[j])
+	// 		}
+	// 	}
+	// }
 
 	// Rubah code ini dengan array hasil sorting secara descending
 	return mobil;
