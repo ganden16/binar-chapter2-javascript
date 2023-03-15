@@ -1,11 +1,5 @@
 function filterCarByAvailability(cars) {
-	// Sangat dianjurkan untuk console.log semua hal hehe
-
-	// Tempat penampungan hasil
 	const result = [];
-
-	// Tulis code-mu disini
-
 	//success
 	cars.map((car) => {if(car.available) result.push(car)})
 
@@ -19,7 +13,6 @@ function filterCarByAvailability(cars) {
 	// 	if(cars[i].available) result.push(cars[i])
 	// }
 
-	// Rubah code ini dengan array hasil filter berdasarkan availablity
-
+	console.log(result)
 	return result
 }

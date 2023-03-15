@@ -1,11 +1,4 @@
 function sortCarByYearAscendingly(cars) {
-	// Sangat dianjurkan untuk console.log semua hal hehe
-
-	// Clone array untuk menghindari side-effect
-	// Apa itu side effect?
-
-	// Tulis code-mu disini
-
 	// let years = [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022]
 	let years = []
 	cars.map((car) => {
@@ -50,6 +43,6 @@ function sortCarByYearAscendingly(cars) {
 	// 	}
 	// }
 
-	// Rubah code ini dengan array hasil sorting secara ascending
+	console.log(mobil)
 	return mobil;
 }
